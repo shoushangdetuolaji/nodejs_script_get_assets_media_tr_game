@@ -3,7 +3,7 @@ const cheerio = require("cheerio");
 const path = require("path");
 const fs = require("fs");
 
-const INPUT_WEBSITE_URL = "https://tr.hangame.com/event/updateRoadmap/index.asp";
+const INPUT_WEBSITE_URL = "https://tr.hangame.com/event/2024/01/10_blue_dragon/event.asp";
 const outputDir = "./downloads/";
 
 function queryCssUrlBywebsiteContent() {
